@@ -15,3 +15,6 @@ engine = RecommendationEngine()
 engine.add_rating("user1", "item1", 5.0)
 recs = engine.recommend("user1", n=5)
 ```
+
+## Algorithms
+Supports both user-based and item-based collaborative filtering with cosine similarity.
